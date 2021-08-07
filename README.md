@@ -15,4 +15,4 @@ This uses the following Nuget packages:
 navigating to google.com, executing a search for 'Selenium HQ'
 & asserting some values from the results page (see comments).
 
-For more information please see my blog post here: https://blankstechblog.com/2019/05/23/cross-platform-selenium-with-dotnet-core/
+For more information please the blog post here: https://blankstechblog.com/2019/05/23/cross-platform-selenium-with-dotnet-core/

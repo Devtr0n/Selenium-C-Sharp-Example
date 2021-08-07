@@ -1,19 +1,18 @@
-using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FluentAssertions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.IO;
 using System.Reflection;
+using Xunit;
 
 namespace SeleniumExample
 {
-    [TestClass]
-    public class GoogleSearchExample
+    public class GoogleSearchExampleXUnit
     {
-        [TestMethod]
-        public void SearchForSeleniumHQ()
+        [Fact]
+        public void SearchForSeleniumHQXUnit()
         {
             //***************************************************************************************************
             // Arrange
