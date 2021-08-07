@@ -42,7 +42,7 @@ namespace SeleniumExample
 
             // clear search field & enter "Selenium HQ" as text into the Google search engine
             googleSearchBox.Clear();
-            googleSearchBox.SendKeys("Selenium HQ");
+            googleSearchBox.SendKeys("xUnit");
 
             // pause until the Google Search button is visible
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Name("btnK")));
@@ -70,7 +70,7 @@ namespace SeleniumExample
             var results = chromeDriver.FindElement(By.TagName("em"));
 
             // ensure that the result text contains Selenium
-            results.Text.Should().Contain("Selenium");
+            results.Text.Should().Contain("xUnit");
 
             // close Chrome browser
             chromeDriver.Close();
